@@ -54,6 +54,8 @@ public class ProductSettingTest extends TestBase{
 		menu = prop.getProperty("Product");
 		item = prop.getProperty("ProductSetting");
 		category = prop.getProperty("ProductCategory");
+		active = prop.getProperty("active");
+		disable = prop.getProperty("disable");
 		WalletType = System.getProperty("walletType")!=null ? System.getProperty("walletType") : prop.getProperty("walletType");
 		if(WalletType.equals(prop.getProperty("Seamless"))) {
 			TestAccount = prop.getProperty("SeamlessAccount");
@@ -70,8 +72,7 @@ public class ProductSettingTest extends TestBase{
 		homePage.MenuFinder(menu);
 		productSettingPage = homePage.clickOnProductSetting(item,category);
 		//productSettingPage.findTestingAccount(SMA,WalletType);
-		active = prop.getProperty("active");
-		disable = prop.getProperty("disable");
+		
 	}
 	
 	@Test(priority=1)

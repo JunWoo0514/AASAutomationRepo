@@ -151,9 +151,10 @@ public class TestBase {
 	    }
 	    
 	    public void clickWait(WebElement element) throws InterruptedException {
+	    	Thread.sleep(1000);
 	    	//System.out.print("1:"+element.toString());
-	    	waitVisibility(element);
-	        waitClickable(element);
+	    	//waitVisibility(element);
+	        //waitClickable(element);
 	        element.click();
 	        Thread.sleep(2000);
 	    }

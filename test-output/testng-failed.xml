@@ -8,9 +8,10 @@
     <classes>
       <class name="AASAutomation.test.ProductSettingTest">
         <methods>
+          <include name="ProductSettingGroupCheck_MA" invocation-numbers="2"/>
           <include name="tearDown"/>
-          <include name="ProductSettingSingleUpdate_AG" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="ProductSettingSingleUpdate_MA" invocation-numbers="2"/>
         </methods>
       </class> <!-- AASAutomation.test.ProductSettingTest -->
     </classes>

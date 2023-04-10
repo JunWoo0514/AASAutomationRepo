@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="111" passed="111" failed="0" skipped="0">
+<testng-results ignored="0" total="165" passed="165" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-07T21:36:48 MYT" name="AAS Product Setting Test Suite" finished-at="2023-04-07T21:39:13 MYT" duration-ms="145402">
+  <suite started-at="2023-04-10T18:20:07 MYT" name="AAS Product Setting Test Suite" finished-at="2023-04-10T18:24:00 MYT" duration-ms="233510">
     <groups>
     </groups>
-    <test started-at="2023-04-07T21:36:48 MYT" name="AAS Product Setting Test" finished-at="2023-04-07T21:39:13 MYT" duration-ms="145402">
+    <test started-at="2023-04-10T18:20:07 MYT" name="AAS Product Setting Test" finished-at="2023-04-10T18:24:00 MYT" duration-ms="233510">
       <class name="AASAutomation.test.ProductSettingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:36:48 MYT" name="setUp" finished-at="2023-04-07T21:37:09 MYT" duration-ms="21420" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:07 MYT" name="setUp" finished-at="2023-04-10T18:20:30 MYT" duration-ms="22846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProceedToSMA(org.testng.ITestContext)[pri:1, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:09 MYT" name="ProceedToSMA" finished-at="2023-04-07T21:37:11 MYT" duration-ms="2203" status="PASS">
+        <test-method signature="ProceedToSMA(org.testng.ITestContext)[pri:1, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:30 MYT" name="ProceedToSMA" finished-at="2023-04-10T18:20:33 MYT" duration-ms="3214" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProceedToSMA -->
-        <test-method signature="SectionSetUpSMA(org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:11 MYT" name="SectionSetUpSMA" finished-at="2023-04-07T21:37:12 MYT" duration-ms="671" status="PASS">
+        <test-method signature="SectionSetUpSMA(org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:33 MYT" name="SectionSetUpSMA" finished-at="2023-04-10T18:20:34 MYT" duration-ms="1046" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SectionSetUpSMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:12 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:14 MYT" duration-ms="2173" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:34 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:35 MYT" duration-ms="1505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,14 +47,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:14 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:16 MYT" duration-ms="1485" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:35 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:37 MYT" duration-ms="1469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,14 +68,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:16 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:17 MYT" duration-ms="1452" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:37 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:38 MYT" duration-ms="1492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:38 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:40 MYT" duration-ms="1482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,14 +110,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:17 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:19 MYT" duration-ms="1418" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:40 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:41 MYT" duration-ms="1556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,14 +131,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:19 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:20 MYT" duration-ms="1470" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:41 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:43 MYT" duration-ms="1495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,14 +152,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:20 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:22 MYT" duration-ms="1513" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:43 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:45 MYT" duration-ms="1615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,14 +173,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:22 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:23 MYT" duration-ms="1554" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:45 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:46 MYT" duration-ms="1599" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,14 +194,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:23 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:25 MYT" duration-ms="1586" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:46 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:48 MYT" duration-ms="1692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:48 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:50 MYT" duration-ms="1719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:50 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:51 MYT" duration-ms="1676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:51 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:53 MYT" duration-ms="1697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,14 +278,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:25 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:26 MYT" duration-ms="1651" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:53 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:55 MYT" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:55 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:57 MYT" duration-ms="1764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:57 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:20:58 MYT" duration-ms="1828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:20:58 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:00 MYT" duration-ms="1876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,35 +362,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:26 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:28 MYT" duration-ms="1592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Active]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:28 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:30 MYT" duration-ms="1602" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:00 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:02 MYT" duration-ms="1831" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,35 +383,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:30 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:31 MYT" duration-ms="1640" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Active]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:31 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:33 MYT" duration-ms="1690" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:02 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:09 MYT" duration-ms="6878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,14 +404,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:33 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:35 MYT" duration-ms="1686" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:09 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:12 MYT" duration-ms="2571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,14 +425,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:35 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:36 MYT" duration-ms="1701" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:12 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:14 MYT" duration-ms="2434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -341,14 +446,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:36 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:38 MYT" duration-ms="2000" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:14 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:16 MYT" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:16 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:18 MYT" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:18 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:20 MYT" duration-ms="2004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:20 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:22 MYT" duration-ms="2104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_SMA -->
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:22 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:24 MYT" duration-ms="2324" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -362,14 +551,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:38 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:40 MYT" duration-ms="1733" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:24 MYT" name="ProductSettingSingleUpdate_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:26 MYT" duration-ms="2125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -383,25 +572,25 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_SMA -->
-        <test-method signature="ProductSettingGroupUpdate_SMA(org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:40 MYT" name="ProductSettingGroupUpdate_SMA" finished-at="2023-04-07T21:37:42 MYT" duration-ms="2093" status="PASS">
+        <test-method signature="ProductSettingGroupUpdate_SMA(org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:26 MYT" name="ProductSettingGroupUpdate_SMA" finished-at="2023-04-10T18:21:29 MYT" duration-ms="2552" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupUpdate_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:42 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:42 MYT" duration-ms="114" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:29 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:29 MYT" duration-ms="130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -415,14 +604,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:42 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:42 MYT" duration-ms="91" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:29 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:29 MYT" duration-ms="102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,14 +625,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:42 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:42 MYT" duration-ms="102" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:29 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:29 MYT" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:29 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:29 MYT" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,14 +667,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:42 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:42 MYT" duration-ms="111" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:29 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:30 MYT" duration-ms="158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -478,14 +688,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:42 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="128" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:30 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:30 MYT" duration-ms="168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -499,14 +709,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="143" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:30 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:30 MYT" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -520,14 +730,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="156" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:30 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:30 MYT" duration-ms="189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,14 +751,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="163" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:30 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:30 MYT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:30 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:31 MYT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:31 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:31 MYT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:31 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:31 MYT" duration-ms="264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -562,14 +835,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="174" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:31 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:31 MYT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:31 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:32 MYT" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:32 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:32 MYT" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:32 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:32 MYT" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -583,35 +919,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:43 MYT" duration-ms="187" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Active]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:43 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:44 MYT" duration-ms="201" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:32 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:33 MYT" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -625,35 +940,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:44 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:44 MYT" duration-ms="211" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Active]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:44 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:44 MYT" duration-ms="217" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:33 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:33 MYT" duration-ms="366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -667,14 +961,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:44 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:44 MYT" duration-ms="226" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:33 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:33 MYT" duration-ms="382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -688,14 +982,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:44 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:45 MYT" duration-ms="242" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:33 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:34 MYT" duration-ms="350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -709,14 +1003,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:45 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:45 MYT" duration-ms="250" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:34 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:34 MYT" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:34 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:34 MYT" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:34 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:35 MYT" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:35 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:35 MYT" duration-ms="426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_SMA -->
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:35 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:36 MYT" duration-ms="406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,14 +1108,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:45 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:45 MYT" duration-ms="259" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_SMA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:36 MYT" name="ProductSettingGroupCheck_SMA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:36 MYT" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -751,36 +1129,36 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_SMA -->
-        <test-method signature="ProceedToMA(org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:45 MYT" name="ProceedToMA" finished-at="2023-04-07T21:37:50 MYT" duration-ms="5055" status="PASS">
+        <test-method signature="ProceedToMA(org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:36 MYT" name="ProceedToMA" finished-at="2023-04-10T18:21:43 MYT" duration-ms="7363" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProceedToMA -->
-        <test-method signature="SectionSetUpMA(org.testng.ITestContext)[pri:7, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:50 MYT" name="SectionSetUpMA" finished-at="2023-04-07T21:37:51 MYT" duration-ms="594" status="PASS">
+        <test-method signature="SectionSetUpMA(org.testng.ITestContext)[pri:7, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:43 MYT" name="SectionSetUpMA" finished-at="2023-04-10T18:21:44 MYT" duration-ms="959" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SectionSetUpMA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:51 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:52 MYT" duration-ms="1394" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:44 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:46 MYT" duration-ms="1495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,14 +1172,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:52 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:53 MYT" duration-ms="1386" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:46 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:47 MYT" duration-ms="1470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -815,14 +1193,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:53 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:55 MYT" duration-ms="1561" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:47 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:49 MYT" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:49 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:50 MYT" duration-ms="1511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -836,14 +1235,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:55 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:57 MYT" duration-ms="1497" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:50 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:52 MYT" duration-ms="1582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -857,14 +1256,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:57 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:37:58 MYT" duration-ms="1470" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:52 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:53 MYT" duration-ms="1554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -878,14 +1277,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:37:58 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:00 MYT" duration-ms="1601" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:53 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:55 MYT" duration-ms="1636" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -899,14 +1298,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:00 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:01 MYT" duration-ms="1796" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:55 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:57 MYT" duration-ms="1591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -920,14 +1319,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:01 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:09 MYT" duration-ms="7558" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:57 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:21:58 MYT" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:21:58 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:00 MYT" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:00 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:02 MYT" duration-ms="1731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:02 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:10 MYT" duration-ms="7885" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -941,14 +1403,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:09 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:11 MYT" duration-ms="1946" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:10 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:12 MYT" duration-ms="1998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:12 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:14 MYT" duration-ms="2054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:14 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:15 MYT" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:15 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:17 MYT" duration-ms="1971" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -962,35 +1487,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:11 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:13 MYT" duration-ms="1641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:13 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:14 MYT" duration-ms="1577" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:17 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:19 MYT" duration-ms="1881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1004,35 +1508,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:14 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:16 MYT" duration-ms="1614" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:16 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:17 MYT" duration-ms="1645" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:19 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:21 MYT" duration-ms="1946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1046,14 +1529,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:17 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:19 MYT" duration-ms="1673" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:21 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:23 MYT" duration-ms="1819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1067,14 +1550,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:19 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:21 MYT" duration-ms="1693" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:23 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:25 MYT" duration-ms="1829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1088,14 +1571,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:21 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:23 MYT" duration-ms="1871" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:25 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:27 MYT" duration-ms="2023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:27 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:29 MYT" duration-ms="1914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:29 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:31 MYT" duration-ms="1967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:31 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:33 MYT" duration-ms="2129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_MA -->
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:33 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:35 MYT" duration-ms="2133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1109,14 +1676,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:23 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:24 MYT" duration-ms="1729" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:35 MYT" name="ProductSettingSingleUpdate_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:37 MYT" duration-ms="2227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1130,25 +1697,25 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_MA -->
-        <test-method signature="ProductSettingGroupUpdate_MA(org.testng.ITestContext)[pri:9, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:24 MYT" name="ProductSettingGroupUpdate_MA" finished-at="2023-04-07T21:38:27 MYT" duration-ms="2164" status="PASS">
+        <test-method signature="ProductSettingGroupUpdate_MA(org.testng.ITestContext)[pri:9, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:37 MYT" name="ProductSettingGroupUpdate_MA" finished-at="2023-04-10T18:22:40 MYT" duration-ms="2694" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupUpdate_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="110" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:40 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:40 MYT" duration-ms="147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1162,14 +1729,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="91" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:40 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:40 MYT" duration-ms="109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1183,14 +1750,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="102" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:40 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:40 MYT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:40 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:40 MYT" duration-ms="133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1204,14 +1792,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="114" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:40 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:41 MYT" duration-ms="157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1225,14 +1813,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="126" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:41 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:41 MYT" duration-ms="166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1246,14 +1834,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="140" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:41 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:41 MYT" duration-ms="179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1267,14 +1855,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:27 MYT" duration-ms="147" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:41 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:41 MYT" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1288,14 +1876,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:27 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="159" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:41 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:41 MYT" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:41 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:42 MYT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:42 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:42 MYT" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:42 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:42 MYT" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1309,14 +1960,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="173" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:42 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:42 MYT" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:42 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:43 MYT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:43 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:43 MYT" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:43 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:43 MYT" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1330,35 +2044,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="185" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="192" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:43 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:43 MYT" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1372,35 +2065,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="204" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:28 MYT" duration-ms="225" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:43 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:44 MYT" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1414,14 +2086,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:28 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:29 MYT" duration-ms="233" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:44 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:44 MYT" duration-ms="323" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1435,14 +2107,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:29 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:29 MYT" duration-ms="240" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:44 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:44 MYT" duration-ms="335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1456,14 +2128,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:29 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:29 MYT" duration-ms="250" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:44 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:45 MYT" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:45 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:45 MYT" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:45 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:46 MYT" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:46 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:46 MYT" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_MA -->
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:46 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:46 MYT" duration-ms="399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1477,14 +2233,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:29 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:29 MYT" duration-ms="262" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_MA(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:10, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:46 MYT" name="ProductSettingGroupCheck_MA" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:47 MYT" duration-ms="419" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1498,36 +2254,36 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_MA -->
-        <test-method signature="ProceedToAG(org.testng.ITestContext)[pri:11, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:29 MYT" name="ProceedToAG" finished-at="2023-04-07T21:38:34 MYT" duration-ms="4607" status="PASS">
+        <test-method signature="ProceedToAG(org.testng.ITestContext)[pri:11, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:47 MYT" name="ProceedToAG" finished-at="2023-04-10T18:22:55 MYT" duration-ms="8214" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProceedToAG -->
-        <test-method signature="SectionSetUpAG(org.testng.ITestContext)[pri:12, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:34 MYT" name="SectionSetUpAG" finished-at="2023-04-07T21:38:35 MYT" duration-ms="586" status="PASS">
+        <test-method signature="SectionSetUpAG(org.testng.ITestContext)[pri:12, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:55 MYT" name="SectionSetUpAG" finished-at="2023-04-10T18:22:56 MYT" duration-ms="928" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SectionSetUpAG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:35 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:36 MYT" duration-ms="1379" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:56 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:57 MYT" duration-ms="1507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1541,14 +2297,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:36 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:37 MYT" duration-ms="1409" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:57 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:22:59 MYT" duration-ms="1604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1562,14 +2318,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:37 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:39 MYT" duration-ms="1433" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:22:59 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:01 MYT" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:01 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:07 MYT" duration-ms="6395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1583,14 +2360,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:39 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:40 MYT" duration-ms="1480" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:07 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:11 MYT" duration-ms="3804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1604,14 +2381,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:40 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:42 MYT" duration-ms="1463" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:11 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:12 MYT" duration-ms="1625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1625,14 +2402,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:42 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:43 MYT" duration-ms="1489" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:12 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:15 MYT" duration-ms="2255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1646,14 +2423,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:43 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:45 MYT" duration-ms="1522" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:15 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:16 MYT" duration-ms="1633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1667,14 +2444,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:45 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:46 MYT" duration-ms="1534" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:16 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:18 MYT" duration-ms="1707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:18 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:20 MYT" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:20 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:21 MYT" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:21 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:23 MYT" duration-ms="1682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1688,14 +2528,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:46 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:48 MYT" duration-ms="1619" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:23 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:25 MYT" duration-ms="1771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:25 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:27 MYT" duration-ms="1814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:27 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:28 MYT" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:28 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:30 MYT" duration-ms="1821" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1709,35 +2612,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:48 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:50 MYT" duration-ms="1564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:50 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:51 MYT" duration-ms="1605" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:30 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:32 MYT" duration-ms="1850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1751,35 +2633,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:51 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:53 MYT" duration-ms="1727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:53 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:55 MYT" duration-ms="1631" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:32 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:34 MYT" duration-ms="1894" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1793,14 +2654,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:55 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:56 MYT" duration-ms="1647" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:34 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:36 MYT" duration-ms="1953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1814,14 +2675,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:56 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:38:58 MYT" duration-ms="1673" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:36 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:38 MYT" duration-ms="1866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1835,14 +2696,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:38:58 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:00 MYT" duration-ms="1938" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:38 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:40 MYT" duration-ms="1951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:40 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:42 MYT" duration-ms="1934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:42 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:44 MYT" duration-ms="2108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:44 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:46 MYT" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingSingleUpdate_AG -->
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:46 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:49 MYT" duration-ms="2179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1856,14 +2801,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:00 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:02 MYT" duration-ms="1740" status="PASS">
+        <test-method signature="ProductSettingSingleUpdate_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:13, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:49 MYT" name="ProductSettingSingleUpdate_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:51 MYT" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1877,25 +2822,25 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingSingleUpdate_AG -->
-        <test-method signature="ProductSettingGroupUpdate_AG(org.testng.ITestContext)[pri:14, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:02 MYT" name="ProductSettingGroupUpdate_AG" finished-at="2023-04-07T21:39:07 MYT" duration-ms="5898" status="PASS">
+        <test-method signature="ProductSettingGroupUpdate_AG(org.testng.ITestContext)[pri:14, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:51 MYT" name="ProductSettingGroupUpdate_AG" finished-at="2023-04-10T18:23:53 MYT" duration-ms="2683" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupUpdate_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:07 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:10 MYT" duration-ms="2703" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:53 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1909,14 +2854,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:10 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:10 MYT" duration-ms="90" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1930,14 +2875,35 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:10 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:10 MYT" duration-ms="106" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1951,14 +2917,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:10 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:10 MYT" duration-ms="111" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1972,14 +2938,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:10 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="124" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1993,14 +2959,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="134" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:54 MYT" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2014,14 +2980,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="150" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:54 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:55 MYT" duration-ms="175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2035,14 +3001,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="155" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:55 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:55 MYT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:55 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:55 MYT" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:55 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:55 MYT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:55 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:55 MYT" duration-ms="257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2056,14 +3085,77 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="169" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:55 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:56 MYT" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:56 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:56 MYT" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:56 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:56 MYT" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:56 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:57 MYT" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2077,35 +3169,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:11 MYT" duration-ms="186" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Double Dragon]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:11 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:12 MYT" duration-ms="189" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:57 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:57 MYT" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2119,35 +3190,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:12 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:12 MYT" duration-ms="200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Arena]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Disabled]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:12 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:12 MYT" duration-ms="211" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:57 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:57 MYT" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2161,14 +3211,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:12 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:12 MYT" duration-ms="226" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:57 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:58 MYT" duration-ms="318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2182,14 +3232,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:12 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:12 MYT" duration-ms="248" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:58 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:58 MYT" duration-ms="336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2203,14 +3253,98 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:12 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:13 MYT" duration-ms="266" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:58 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:58 MYT" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:58 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:59 MYT" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:59 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:59 MYT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:59 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:23:59 MYT" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSettingGroupCheck_AG -->
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:23:59 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:24:00 MYT" duration-ms="401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2224,14 +3358,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:13 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-07T21:39:13 MYT" duration-ms="255" status="PASS">
+        <test-method signature="ProductSettingGroupCheck_AG(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:15, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:24:00 MYT" name="ProductSettingGroupCheck_AG" data-provider="RealTimeProductData" finished-at="2023-04-10T18:24:00 MYT" duration-ms="409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2245,21 +3379,21 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@50756c76]]>
+                <![CDATA[org.testng.TestRunner@5527b211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSettingGroupCheck_AG -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-07T21:39:13 MYT" name="tearDown" finished-at="2023-04-07T21:39:13 MYT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AASAutomation.test.ProductSettingTest@24c1b2d2]" started-at="2023-04-10T18:24:00 MYT" name="tearDown" finished-at="2023-04-10T18:24:00 MYT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AASAutomation.test.ProductSettingTest -->
     </test> <!-- AAS Product Setting Test -->
   </suite> <!-- AAS Product Setting Test Suite -->
-  <suite started-at="2023-04-07T21:39:13 MYT" name="AAS Product Test Suite" finished-at="2023-04-07T21:39:13 MYT" duration-ms="0">
+  <suite started-at="2023-04-10T18:24:01 MYT" name="AAS Product Test Suite" finished-at="2023-04-10T18:24:01 MYT" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- AAS Product Test Suite -->

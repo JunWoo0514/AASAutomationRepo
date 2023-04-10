@@ -79,10 +79,12 @@ public class ProductSettingPage extends TestBase{
 	
 	public void findTestingAccount(String agCode, String walletType) throws InterruptedException {
 		waitVisibilityLocate(walletBy);
+		waitClickable(filterBtn);
 		selectItem(walletSelect,walletType);
 		clearText(filterName);
 		writeText(filterName, agCode);
-		waitVisibilityLocate(FilterBy);
+		//waitVisibilityLocate(FilterBy);
+		//waitClickable(filterBtn);
 		clickWait(filterBtn);
 		//CustomWaitClick(filterBtn, FilterBtnCSS);
 		System.out.println("DID CLICK!!! ");
