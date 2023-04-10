@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="AASAutomation.test.ProductSettingTest">
+        <methods>
+          <include name="ProceedToSMA"/>
+          <include name="ProductSettingGroupUpdate_SMA"/>
+          <include name="tearDown"/>
+          <include name="ProceedToMA"/>
+          <include name="setUp"/>
+          <include name="SectionSetUpAG"/>
+          <include name="SectionSetUpMA"/>
+          <include name="SectionSetUpSMA"/>
+          <include name="ProductSettingGroupUpdate_AG"/>
+          <include name="ProceedToAG"/>
+          <include name="ProductSettingGroupUpdate_MA"/>
+        </methods>
+      </class> <!-- AASAutomation.test.ProductSettingTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

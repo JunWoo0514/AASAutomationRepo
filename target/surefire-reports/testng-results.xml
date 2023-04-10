@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="90" passed="90" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-02T19:41:59 MYT" name="AAS Extra PT Test Suite" finished-at="2023-04-02T19:44:28 MYT" duration-ms="148745">
+    <groups>
+    </groups>
+    <test started-at="2023-04-02T19:41:59 MYT" name="AAS Extra PT Test" finished-at="2023-04-02T19:44:28 MYT" duration-ms="148745">
+      <class name="AASAutomation.test.ExtraPTTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:41:59 MYT" name="setUp" finished-at="2023-04-02T19:42:26 MYT" duration-ms="27435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SeamlessSectionSetUp(org.testng.ITestContext)[pri:1, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:26 MYT" name="SeamlessSectionSetUp" finished-at="2023-04-02T19:42:28 MYT" duration-ms="2009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessSectionSetUp -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:28 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:30 MYT" duration-ms="2036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Evolution]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:30 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:32 MYT" duration-ms="1870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Big Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:32 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:34 MYT" duration-ms="1770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:34 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:36 MYT" duration-ms="1858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asia Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:36 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:38 MYT" duration-ms="1799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dream Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:38 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:40 MYT" duration-ms="1947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sexy Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:40 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:42 MYT" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PragmaticPlay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:42 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:43 MYT" duration-ms="1808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:43 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:45 MYT" duration-ms="1924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:45 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:47 MYT" duration-ms="1928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:47 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:49 MYT" duration-ms="2089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:49 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:51 MYT" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:51 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:53 MYT" duration-ms="1979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:53 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:56 MYT" duration-ms="2044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:56 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:42:58 MYT" duration-ms="2015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:42:58 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:00 MYT" duration-ms="2035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DoWin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:00 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:05 MYT" duration-ms="5670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oriental Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:05 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:11 MYT" duration-ms="5300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:11 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:13 MYT" duration-ms="2332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes8 Vegas Lounge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:13 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:15 MYT" duration-ms="2330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:15 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:18 MYT" duration-ms="2345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:18 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:20 MYT" duration-ms="2036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:20 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:22 MYT" duration-ms="2197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:22 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:24 MYT" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:24 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:27 MYT" duration-ms="2826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:2, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:27 MYT" name="SeamlessExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:29 MYT" duration-ms="2190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech & Skywind Slot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTSingleUpdate -->
+        <test-method signature="SeamlessExtraPTGroupUpdate(org.testng.ITestContext)[pri:3, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:29 MYT" name="SeamlessExtraPTGroupUpdate" finished-at="2023-04-02T19:43:33 MYT" duration-ms="3745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupUpdate -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:33 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Evolution]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Big Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micro Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asia Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dream Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sexy Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PragmaticPlay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:34 MYT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:34 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TVBet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ezugi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:35 MYT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIG Casino]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:35 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:36 MYT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Motivation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:36 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:36 MYT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DoWin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:36 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:36 MYT" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oriental Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:36 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:36 MYT" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:36 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:36 MYT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes8 Vegas Lounge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:36 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:37 MYT" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:37 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:37 MYT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inplay Matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:37 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:37 MYT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:37 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:37 MYT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinnacle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:37 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:38 MYT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Betting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:38 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:38 MYT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="SeamlessExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:4, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:38 MYT" name="SeamlessExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:38 MYT" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech & Skywind Slot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeamlessExtraPTGroupCheck -->
+        <test-method signature="WalletSectionSetUp(org.testng.ITestContext)[pri:5, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:38 MYT" name="WalletSectionSetUp" finished-at="2023-04-02T19:43:41 MYT" duration-ms="2197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletSectionSetUp -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:41 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:42 MYT" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Evolution]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:42 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:44 MYT" duration-ms="1777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Big Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:44 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:46 MYT" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asia Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:46 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:48 MYT" duration-ms="2061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dream Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:48 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:50 MYT" duration-ms="1746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sexy Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:50 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:52 MYT" duration-ms="2074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PragmaticPlay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:52 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:54 MYT" duration-ms="1926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:54 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:56 MYT" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:56 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:43:58 MYT" duration-ms="2293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DoWin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:43:58 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:00 MYT" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Double Dragon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:00 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:06 MYT" duration-ms="5942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oriental Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:06 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:11 MYT" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:11 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:13 MYT" duration-ms="2001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:13 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:15 MYT" duration-ms="2253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes8 Vegas Lounge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:15 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:17 MYT" duration-ms="1971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:17 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:19 MYT" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTSingleUpdate(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:6, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:19 MYT" name="WalletExtraPTSingleUpdate" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:21 MYT" duration-ms="2161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech & Skywind Slot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTSingleUpdate -->
+        <test-method signature="WalletExtraPTGroupUpdate(org.testng.ITestContext)[pri:7, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:21 MYT" name="WalletExtraPTGroupUpdate" finished-at="2023-04-02T19:44:24 MYT" duration-ms="3049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupUpdate -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:24 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Evolution]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Big Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asia Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dream Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sexy Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:25 MYT" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PragmaticPlay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:25 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DoWin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Double Dragon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oriental Gaming]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:26 MYT" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:26 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:27 MYT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:27 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:27 MYT" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes8 Vegas Lounge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:27 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:27 MYT" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:27 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:27 MYT" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method signature="WalletExtraPTGroupCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:8, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:27 MYT" name="WalletExtraPTGroupCheck" data-provider="RealTimeProductData" finished-at="2023-04-02T19:44:28 MYT" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playtech & Skywind Slot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@644ded04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletExtraPTGroupCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AASAutomation.test.ExtraPTTest@723ca036]" started-at="2023-04-02T19:44:28 MYT" name="tearDown" finished-at="2023-04-02T19:44:28 MYT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AASAutomation.test.ExtraPTTest -->
+    </test> <!-- AAS Extra PT Test -->
+  </suite> <!-- AAS Extra PT Test Suite -->
+</testng-results>

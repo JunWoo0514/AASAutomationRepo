@@ -1,0 +1,634 @@
+<html>
+<head>
+<title>TestNG:  AAS Product Setting Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AAS Product Setting Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>111/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 07 21:36:48 MYT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>145 seconds (145402 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.SectionSetUpSMA()'><b>SectionSetUpSMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>7</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProceedToMA()'><b>ProceedToMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>5</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Sexy Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProceedToAG()'><b>ProceedToAG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>4</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Vegas Lounge, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.SectionSetUpMA()'><b>SectionSetUpMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.SectionSetUpAG()'><b>SectionSetUpAG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Dream Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Taishan, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Big Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Bota, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Slots, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupUpdate_SMA()'><b>ProductSettingGroupUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupUpdate_AG()'><b>ProductSettingGroupUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>5</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Arena, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Asia Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupUpdate_MA()'><b>ProductSettingGroupUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProceedToSMA()'><b>ProceedToSMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_MA()'><b>ProductSettingGroupCheck_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: DoWin, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech & Skywind Slot, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_AG()'><b>ProductSettingGroupCheck_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: PragmaticPlay, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Beter, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_AG()'><b>ProductSettingSingleUpdate_AG</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Double Dragon, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingGroupCheck_SMA()'><b>ProductSettingGroupCheck_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Oriental Gaming, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>0</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_SMA()'><b>ProductSettingSingleUpdate_SMA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Evolution, Active, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>2</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+<tr>
+<td title='AASAutomation.test.ProductSettingTest.ProductSettingSingleUpdate_MA()'><b>ProductSettingSingleUpdate_MA</b><br>Test class: AASAutomation.test.ProductSettingTest<br>Parameters: Playtech, Disabled, org.testng.TestRunner@50756c76</td>
+<td></td>
+<td>1</td>
+<td>AASAutomation.test.ProductSettingTest@24c1b2d2</td></tr>
+</table><p>
+</body>
+</html>

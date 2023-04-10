@@ -1,0 +1,8 @@
+[
+{
+    "AG_Code" : "PIKACHU",
+    "Name" : "TestAG",
+    "Memo" : "Automation Test Data",
+    "SiteUrl" : "http://uat.site.kplayone.com/api/aas/"
+}
+]
