@@ -82,5 +82,10 @@ public class HomePage extends TestBase{
 			MenuItemFinder(item, category);
 			return new ProductSettingPage();
 		}
+		
+		public PTSettingPage clickOnPTSetting(String item, String category) {
+			MenuItemFinder(item, category);
+			return new PTSettingPage();
+		}
 
 }

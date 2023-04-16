@@ -3,6 +3,7 @@ package AASAutomation.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -34,7 +35,7 @@ public class TestBase {
 	public static DriverManager driverManager;
 	public static WebDriver driver;
 	public static Properties prop;
-	public static WebDriverWait wait;
+	public static WebDriverWait wait, waitE;
 	Wait<WebDriver> fwait;
 	
 	//Gets data from properties file
@@ -78,8 +79,10 @@ public class TestBase {
 
 			//actions = ActionChains(driver);
 			wait = (WebDriverWait) new WebDriverWait(driver, AASUtil.ELEMENT_WAIT_MID);
-			
-			
+			waitE = (WebDriverWait) new FluentWait<WebDriver>(driver)
+				    .withTimeout(Duration.ofSeconds(1))
+				    .pollingEvery(Duration.ofMillis(500));
+				    //.ignoring(NoSuchElementException.class);
 			
 		}
 		
@@ -112,6 +115,34 @@ public class TestBase {
 				
 			{
 				boolean t = driver.findElement(By.cssSelector(cssText)).isDisplayed();
+				System.out.println("Btn State: " +t);
+				if(t == true) {
+					Thread.sleep(150);
+					System.out.println("Custom " + i + "  OK");
+					try {
+						element.click();
+						System.out.println("Custom " + i + "  OK");
+					}catch(StaleElementReferenceException exc) {
+						break;
+					}
+					
+				}
+	
+				else
+	
+				{
+					System.out.println("Custom " + i + "  NO");
+	
+				}
+
+			}
+		}
+		
+		public void CustomWaitClickXpath(final WebElement element, final String xpathText) throws InterruptedException {
+			for(int i=0;i<10;i++)
+				
+			{
+				boolean t = driver.findElement(By.xpath(xpathText)).isDisplayed();
 				System.out.println("Btn State: " +t);
 				if(t == true) {
 					Thread.sleep(150);
@@ -176,6 +207,29 @@ public class TestBase {
 	    	element.sendKeys(Keys.DOWN);
 	    }
 	    
+	    //check exist
+	    public boolean checkElementExist(String xpath) {
+	    	boolean result;
+	    	try {
+	    	    //WebElement element = driver.findElement(By.xpath(xpath));
+	    		WebElement element = waitE.until(new Function<WebDriver, WebElement>() {
+	    		    public WebElement apply(WebDriver driver) {
+	    		        return driver.findElement(By.xpath(xpath));
+	    		    }
+	    		});
+	    		//WebElement element = waitE.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+	    	    result = true;
+	    	    // If the above line of code is executed without any exceptions, it means the element exists
+	    	    System.out.println("Element with ID 'element-id' exists on the page.");
+	    	} catch (Exception e) {
+	    	    // If a NoSuchElementException is thrown, it means the element doesn't exist
+	    		result = false;
+	    	    System.out.println("Element with ID 'element-id' does not exist on the page.");
+	    	}
+	    	
+	    	return result;
+	    }
+	    
 	    
 	    //Clear Text
 	    public void clearText(WebElement element) {
@@ -213,10 +267,10 @@ public class TestBase {
 	        select.selectByValue(Integer.toString(text));	
 	    }
 	    
-	    public void selectItemFirstItem(WebElement element) {
+	    public String selectItemFirstItem(WebElement element) {
 	        waitVisibility(element);
 	        Select select = new Select(element);	
-	        select.getFirstSelectedOption().getText();
+	        return select.getFirstSelectedOption().getText();
 	    }
 	    
 	    @AfterClass

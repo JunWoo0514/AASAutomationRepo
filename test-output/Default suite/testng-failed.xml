@@ -3,21 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AASAutomation.test.ProductSettingTest">
+      <class name="AASAutomation.test.PTSettingTest">
         <methods>
-          <include name="ProceedToSMA"/>
-          <include name="ProductSettingGroupUpdate_SMA"/>
-          <include name="tearDown"/>
-          <include name="ProceedToMA"/>
-          <include name="setUp"/>
-          <include name="SectionSetUpAG"/>
-          <include name="SectionSetUpMA"/>
           <include name="SectionSetUpSMA"/>
-          <include name="ProductSettingGroupUpdate_AG"/>
-          <include name="ProceedToAG"/>
-          <include name="ProductSettingGroupUpdate_MA"/>
+          <include name="setUp"/>
+          <include name="ProceedToSMA"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- AASAutomation.test.ProductSettingTest -->
+      </class> <!-- AASAutomation.test.PTSettingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

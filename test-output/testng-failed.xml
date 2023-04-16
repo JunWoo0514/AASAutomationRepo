@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [AAS Product Setting Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="AASAutomation.extentreports.TestListeners"/>
-  </listeners>
-  <test thread-count="5" name="AAS Product Setting Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AASAutomation.test.ProductSettingTest">
+      <class name="AASAutomation.test.PTSettingTest">
         <methods>
-          <include name="ProductSettingGroupCheck_MA" invocation-numbers="2"/>
-          <include name="tearDown"/>
+          <include name="SectionSetUpSMA"/>
           <include name="setUp"/>
-          <include name="ProductSettingSingleUpdate_MA" invocation-numbers="2"/>
+          <include name="ProceedToSMA"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- AASAutomation.test.ProductSettingTest -->
+      </class> <!-- AASAutomation.test.PTSettingTest -->
     </classes>
-  </test> <!-- AAS Product Setting Test(failed) -->
-</suite> <!-- Failed suite [AAS Product Setting Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
